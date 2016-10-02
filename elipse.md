@@ -47,8 +47,10 @@ Se llama **hipercuádrica** asociada a $Q$ al conjunto:
 
 $$\mathbb{C}_{Q} = \left\{x\in \mathbb{R}^n : Q(x) = 0\right\}$$
 
+$\mathbb{C}_{Q}$ puede ser vacío, por ejemplo en el caso $Q(x,y) = x^2+y^2+1=0$
 
-Cuando tenemos una hipercuádrica en $\mathbb{R}^2$, recibe el nombre de **cónica**.
+
+Cuando tenemos una hipercuádrica en $\mathbb{R}^2$, recibe el nombre de **cónica**. Las distintas cónicas que existen se pueden obtener intersecando el cono $\left\{(x,y,z)\in \mathbb{R}^3: \frac{x^2}{a^2} + \frac{y^2}{b^2} - {z^2}{c^2} = 0\right\}$ con un plano afín. 
 
 Cuando tenemos una hipercuádrica en $\mathbb{R}^3$, recibe el nombre de **cuádrica**.
 
@@ -72,3 +74,31 @@ Decimos que $\mathbb{C}_{Q}$ es degenerada si $det(\widetilde{M}) \neq 0$
 
 
 # Elipse
+
+Dados dos puntos $F_1, F_2, a>0$ definimos una elipse como
+
+$$E=\left\{p\in \mathbb{R}^2 : d(p,F_1) + d(p,F_2) = 2a\right\}$$
+
+Cuando tenemos una elipse $E'$centrada en $(0,0)$ cuyos ejes mayor y menor coinciden con los ejes cartesianos, tendremos que los focos se encuentran en 2 puntos sobre el eje $Y$, a saber $(-\lambda,0)$, $(\lambda,0)$
+
+Así, sea $p=(x,y)\in E'$
+
+
+\begin{eqnarray*}
+    d(p,F_1) = 2a - d(p,F_2) \Leftrightarrow \\
+    d(p,F_1)^2 = (2a - d(p,F_2))^2 \Leftrightarrow \\
+    (x+\lambda)^2 + y^2 = 4a^2 + (x-\lambda)^2 + y^2 - 4a\cdot d(p,F_2) \Leftrightarrow\\
+    4x\lambda = 4a^2 - 4a\cdot d(p,F_2) \Leftrightarrow\\
+    x\lambda = a^2 - a\cdot d(p,F_2) \Leftrightarrow\\
+    (a^2-x\lambda)^2 = (a\cdot d(p,F_2))^2 \Leftrightarrow \\
+    a^4-2a^2\lambda x+\lambda^2x^2 = a^2((x-\lambda)^2+y^2) \Leftrightarrow \\
+    a^4+\lambda^2x^2 = a^2 x^2+a^2 \lambda^2 +a^2y^2\Leftrightarrow \\
+    (a^2-\lambda^2)x^2 + a^2\cdot y^2 = a^2(a^2-\lambda^2)
+\end{eqnarray*}
+
+Llamando $b^2 = a^2 - \lambda^2$:
+
+\begin{eqnarray*}
+    b^2\cdot x^2+a^2\cdot y^2 = a^2\cdot b^2 \Leftrightarrow
+    \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 
+\end{eqnarray*}
