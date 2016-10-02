@@ -112,6 +112,7 @@ Sea $Q \in \mathbb{P}_{2}[x]$. Denotamos:
 - $\widetilde{r}$ = rg($\widetilde{M}$) = nº de $\widetilde{\lambda_{i}}$ no nulos
 - |$\Delta$| = | nº de $\lambda_{i}^{+}$ - nº de $\lambda_{i}^{-}$ |
 - |$\widetilde{\Delta}$| = | nº de $\widetilde{\lambda}_{i}^{+}$ - nº de $\widetilde{\lambda}_{i}^{-}$ |
+- $\Lambda_Q=\left\{x \in  \mathbb{R}^n / G_Q(x)=0, G_Q:\mathbb{R}^n \rightarrow \mathbb{R}^n con G_Q(x)=Mx+\frac{b}{2} \right\}$
 
 ## Definición de equivalencia euclídea
 Sean $Q_1$ y $Q_2 \in \mathbb{P}_2[x]$. Diremos que $Q_1$ y $Q_2$ son euclídeamente equivalentes ($Q_1\approx Q_2$) si $\exists f:\mathbb{R}^n\longrightarrow\mathbb{R}^n$ movimiento rígido y $\exists\alpha \neq 0$ tal que $Q_2 = \alpha(Q_1\circ f)$. Así, $\mathbb{C}_{Q_2}=f^{-1}(\mathbb{C}_{Q_1})$.
