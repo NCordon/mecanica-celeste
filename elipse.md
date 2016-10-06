@@ -37,7 +37,7 @@ header-includes:
 
 # Hipercuádricas
 
-Un polinomio de segundo grado en $\mathbb{R}$ se define como:
+Un polinomio de segundo grado en $\mathbb{R}^{n}$ se define como:
 
 $$Q(x) = \sum_{i=1}^n a_{ii} x_i^2 + 2\sum_{i<j} a_{ij} x_i x_j + \sum_{i=1}^n b_i x_i + c$$
 
@@ -154,7 +154,7 @@ $Q'(x)=\alpha_1 x_1^2+...+\alpha_s x_s^2-\alpha_{s+1}x_{s+1}^2-...-\alpha_r x_r^
 | $\lambda x^{2} - y = 0$ | 1 | 3 | 1 | 1 | Parábola |
 | $x^{2} + \lambda y^{2} = 0$ | 2 | 2 | 2 | 2 | Punto |
 | $x^{2} - \lambda y^{2} = 0$ | 2 | 2 | 0 | 0 | Dos rectas secantes |
-| $\lambda x^{2} - \mu y^{2} + 1 = 0$ | 2 | 3 | 2 | 3 | $\emptyset$ |
+| $\lambda x^{2} - \mu y^{2} + 1 = 0$ | 2 | 3 | 2 | 3 | $\emptyset$ (Elipse imaginaria) |
 | $\lambda x^{2} + \mu y^{2} - 1 = 0$ | 2 | 3 | 2 | 1 | Elipse |
 | $\lambda x^{2} - \mu y^{2} \pm 1 = 0$ | 2 | 3 | 0 | 1 | Hipérbola |
 
