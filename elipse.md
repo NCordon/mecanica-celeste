@@ -146,7 +146,7 @@ $Q'(x)=\alpha_1 x_1^2+...+\alpha_s x_s^2-\alpha_{s+1}x_{s+1}^2-...-\alpha_r x_r^
 
 ## Tabla de cónicas reducidas
 
-| Ecuación Euclidea | r | $\widetilde{r}$ | \|$\Delta$\| | \|$\widetilde{\Delta}$\| | Tipo |
+| Ecuación Euclidea | r | $\widetilde{r}$ | $\vert\Delta\vert$ | $\vert\widetilde{\Delta}\vert$ | Tipo |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | $x^{2} = 0$ | 1 | 1 | 1 | 1 | Recta doble |
 | $\lambda x^{2} + 1 = 0$ | 1 | 2 | 1 | 2 | $\emptyset$ , o bien, dos rectas paralelas |
