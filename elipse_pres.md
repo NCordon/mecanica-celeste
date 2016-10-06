@@ -12,7 +12,7 @@ fontsize: 12pt
 
 ## Hipercuádricas
 
-Un polinomio de segundo grado en $\mathbb{R}$ se define como:
+Un polinomio de segundo grado en $\mathbb{R}^n$ se define como:
 
 $$Q(x) = \sum_{i=1}^n a_{ii} x_i^2 + 2\sum_{i<j} a_{ij} x_i x_j + \sum_{i=1}^n b_i x_i + c$$
 
@@ -155,10 +155,10 @@ Las elipses, parábolas e hipérbolas son las únicas cónicas no degeneradas.
 
 \normalsize
 
-# Ecuacion ejercicio
+# Ecuación ejercicio
 
 $$|z| + <z,e> = k, $$  
-donde $z,e \in \mathbb{R}^2 $ y $k \in \mathbb{R}$, desarrollando la ecuación, tomando $x=(x,y)$ y $e=(e_{1}, e_{2})$ obtenemos:
+donde $z,e \in \mathbb{R}^2 $ y $k \in \mathbb{R}$, desarrollando la ecuación, tomando $z=(x,y)$ y $e=(e_{1}, e_{2})$ obtenemos:
 
 \small
 
@@ -194,7 +194,7 @@ $$|\widetilde{M}| = \left| \begin{array}{ccc} -k^{2} & ke_{1} & ke_{2} \\ ke_{1}
 
 $$|\widetilde{M}| \neq 0 \Leftrightarrow k \neq 0$$
 
-Veamos que la hipercuádrica no es vacía. Supongamos $y=0$ y veamos que $\exists x$ tal que $(x,y)$ cumple la ecuación:
+Veamos que la cónica no es vacía. Supongamos $y=0$ y veamos que $\exists x$ tal que $(x,y)$ cumple la ecuación:
 
 Buscamos un $x$ tal que $(1-e_{1}^{2})x^2 + 2ke_{1}x - k^{2} = 0 $, estamos ante una ecuación de segundo grado, luego tenemos dos soluciones que son:
 $$x_{1}=\frac{k}{e_{1}+1} \hspace{1cm} x_{2}=\frac{k}{e_{1}-1}$$

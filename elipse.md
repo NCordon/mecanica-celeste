@@ -161,10 +161,10 @@ $Q'(x)=\alpha_1 x_1^2+...+\alpha_s x_s^2-\alpha_{s+1}x_{s+1}^2-...-\alpha_r x_r^
 ## Corolario
 Las elipses, parábolas e hipérbolas son las únicas cónicas no degeneradas.
 
-# Ecuacion ejercicio
+# Ecuación ejercicio
 Sea
 $$|z| + <z,e> = k, $$  
-donde $x,e \in \mathbb{R}^2 $ y $k \in \mathbb{R}$, desarrollando la ecuación, tomando $x=(x,y)$ y $e=(e_{1}, e_{2})$ obtenemos:
+donde $z,e \in \mathbb{R}^2 $ y $k \in \mathbb{R}$, desarrollando la ecuación, tomando $z=(x,y)$ y $e=(e_{1}, e_{2})$ obtenemos:
 $$\sqrt{x^2+y^2} + <(x,y),(e_{1},e_{2})> = k $$
 $$\sqrt{x^2+y^2} + xe_{1} + ye_{2} = k $$
 $$\sqrt{x^2+y^2} = k - xe_{1} - ye_{2} $$
