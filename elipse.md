@@ -63,14 +63,14 @@ Donde $M = \begin{pmatrix}
     a_{1n} & a_{2n} & \cdots & a_{nn}
 \end{pmatrix}$, \qquad $b=(b_1, \ldots b_n)^t$, \qquad $x=(x_1, \ldots x_n)^t$
 
-y también de la forma $Q(x) = (1, x^{t})\cdot \widetilde{M} \cdot (1,x)$
+y también de la forma $Q(x) = (1, x^{t})\cdot \widetilde{M} \cdot \left(\begin{array}{l} 1\\ x \end{array}\right)$
 
 Donde $\widetilde M = \begin{pmatrix}
     c & \frac{b}{2}\\
     \frac{b}{2} & M \\
 \end{pmatrix}$
 
-Decimos que $\mathbb{C}_{Q}$ es degenerada si $det(\widetilde{M}) \neq 0$
+Decimos que $\mathbb{C}_{Q}$ es degenerada si $det(\widetilde{M}) = 0$
 
 
 # Elipse
