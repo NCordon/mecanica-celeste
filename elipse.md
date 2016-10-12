@@ -204,3 +204,29 @@ $$x_{1}=\frac{k}{e_{1}+1} \hspace{1cm} x_{2}=\frac{k}{e_{1}-1}$$
 Luego, tanto ($x_{1}$,0) como ($x_{2}$,0) son soluciones de la ecuación.
 
 Resumiendo, la ecuación define una elipse $\Leftrightarrow \left\{ \begin{array}{l}  ||e||<1 \\ k \neq 0 \end{array} \right. $
+
+
+# Libro
+$$\vert x \vert + \vert A-x\vert = c $$
+$$\vert A-x\vert = c - \vert x \vert, $$
+$${\vert A-x\vert}^2 = {(c - \vert x \vert)}^2 $$
+$${\vert A \vert}^2 + {\vert x \vert}^2 - 2<A,x> = c^2 + {\vert x\vert}^2 - 2c\vert x \vert,$$
+$$\begin{equation} 
+\vert x\vert + \left< -\frac{1}{c} A,x \right> = \frac{ c^2 - {\vert A \vert}^2 }{ 2c }
+\end{equation} $$
+
+Definimos:
+
+$$e:=-\frac{1}{c}A, \hspace{1cm} k=\frac{c^2 - {\vert A \vert}^2}{2c} $$
+
+Por la desigualdad triangular, $ \vert A\vert < \vert x\vert + \vert A-x\vert = c$, y deducimos que
+
+$$ \vert e\vert < 1, \hspace{1cm} k>0,$$
+
+y (1) se reescribe como
+
+$$ \vert x\vert + <e,x> = k $$
+
+Este proceso es reversible, hay un paso delicado:
+
+$${\vert A-x\vert}^2 = (c-\vert x\vert)^2 \rightsquigarrow \vert A -x\vert = c - \vert x\vert. $$
