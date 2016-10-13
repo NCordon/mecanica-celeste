@@ -140,7 +140,7 @@ $$|x|-c < |x|-|A|\leqslant |x-A| = |x|-c$$
 
 Lo cual es una contradicción. Luego:
 
-$$|A-x| = c-|x| \Leftrightarrow |x|+|A-x| \Leftrightarrow d(x,0)+d(x,A)=x$$ 
+$$|A-x| = c-|x| \Leftrightarrow |x|+|A-x| = c \Leftrightarrow d(x,0)+d(x,A) = c$$ 
 
 donde $$A=\frac{2k}{|e|^2-1}e$$  $$c=\frac{2k}{1-|e|^2}$$
 
