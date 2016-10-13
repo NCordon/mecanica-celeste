@@ -42,6 +42,9 @@ Dados dos puntos $F_1, F_2, a>0$ definimos una elipse como
 
 $$E=\left\{p\in \mathbb{R}^2 : d(p,F_1) + d(p,F_2) = 2a\right\}$$
 
+\imgn{0.65}{./imgs/elipse.png}
+
+\newpage
 # Elipse con un foco en el 0
 
 Como $d(x,y) = |x-y|$, y un foco está en el $0$, y el otro en $A\in \mathbb{R}^2$:
