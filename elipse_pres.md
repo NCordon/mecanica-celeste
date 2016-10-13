@@ -29,6 +29,7 @@ $$E=\left\{p\in \mathbb{R}^2 : d(p,F_1) + d(p,F_2) = 2a\right\}$$
 
 $d(x,y) = |x-y|$, un foco está en el $0$, otro en $A\in \mathbb{R}^2$:
 
+
 \begin{eqnarray*}
     & \vert x \vert + \vert A-x\vert = c \Leftrightarrow \\
     \\
@@ -37,6 +38,7 @@ $d(x,y) = |x-y|$, un foco está en el $0$, otro en $A\in \mathbb{R}^2$:
     & {\vert A-x\vert}^2 = {(c - \vert x \vert)}^2 \Leftrightarrow \\
     \\
     & {\vert A \vert}^2 + {\vert x \vert}^2 - 2<A,x> = c^2 + {\vert x\vert}^2 - 2c\vert x \vert
+    \label{implic}
 \end{eqnarray*}    
 
 \begin{equation}
@@ -55,7 +57,7 @@ Llamando:
     \tag{$**$}
 \end{equation}
 
-Por la desigualdad triangular, $\vert A\vert < \vert x\vert + \vert A-x\vert = c$, y deducimos:
+Por la desigualdad triangular, habíamos deducido $\vert A\vert < c$, y deducimos:
 
 $$ \vert e\vert < 1, \hspace{1cm} k>0,$$
 
@@ -63,6 +65,20 @@ y (\ref{eq1}) se reescribe como:
 
 $$ \vert x\vert + <e,x> = k $$
 
+
+*********
+
+Nótese que $\vert A\vert < \vert x\vert + \vert A-x\vert = c$ por la desigualdad triangular,
+en una elipse de la forma $|x| + |x-A| = c$, y si mantenemos esta condición en las implicaciones 
+de la primera página, tenemos dobles implicaciones, ya que el único paso delicado es:
+
+$$|x-A|^2 = (c-|x|)^2 \Rightarrow |x-A| = c-|x|$$
+
+Pero no puede tenerse $|x-A| = |x|-c$ ya que en dicho caso:
+
+$$|x|-c < |x|-|A|\leqslant |x-A| = |x|-c$$
+
+que es contradicción.
 
 \flushright  $\blacksquare$
 
@@ -120,7 +136,7 @@ y así:
 
 Descartamos que  $|A-x| = |x| -c$ ya que, en dicho caso:
 
-$$|x|-c<x-|A|\leqslant |x-A| = |x|-c$$
+$$|x|-c < |x|-|A|\leqslant |x-A| = |x|-c$$
 
 Lo cual es una contradicción. Luego:
 
@@ -140,9 +156,10 @@ En este caso tendríamos que $|x|+<x,e>=k \Leftrightarrow |x|=k$ con $k>0$. Lueg
 
 ### Caso gravitacional
 
-Sabemos que en este caso $k=\frac{|m|^2}{\mu}$ con $\mu$ constante positiva, y $m$ el momento angular ($m=x\wedge \dot{x}$), constante, se tiene que el eje de excentricidad toma el valor:
+Llamando $m=x\wedge \dot{x}$, sabemos que $m$, momento angular, es constante. Si $m\neq 0$, tenemos
+que $|x| + <x,e> = \frac{|m|^2}{\mu}$ describe las órbitas del cuerpo, con $\mu$ constante positiva. El eje de excentricidad toma el valor $e=\frac{1}{\mu}\dot{x}\wedge m -\frac{x}{|x|}$
 
-$$e=\frac{1}{\mu}\dot{x}\wedge m -\frac{x}{|x|}$$
+Si $|e|<1$ tendríamos una elipse.
 
 Un foco sería $(0,0)$ y el otro $A=\frac{2|m|^2}
     {\mu \left(
@@ -150,4 +167,4 @@ Un foco sería $(0,0)$ y el otro $A=\frac{2|m|^2}
         \right|^2 \right) 
     }$
 
-
+Nótese que para calcular $e$ o $A$ sólo necesitamos los valores de $x$ y $\dot{x}$ en un punto (el mismo para ambas).
